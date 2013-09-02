@@ -1,0 +1,40 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+.racer_table td {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+}
+ 
+.racer_table td.start {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  width: 50px;
+  text-align: center;
+}
+ 
+.racer_table td.active {
+  background-color: black;
+}
+ 
+h1 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+q
+table, th, td
+{
+border: 1px solid #ccc;
+margin-left: auto;
+margin-right: auto;
+}
+ 
+.player1_wins, .player2_wins {
+  display: none;
+}
